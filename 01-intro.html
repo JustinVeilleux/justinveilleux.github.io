@@ -1,34 +1,26 @@
-<html lang="en">                     <!-- Declare language -->
-    <head>                           <!-- Start of head section -->
-        <meta charset="utf-8">       <!-- Use Unicode character set  -->
 
-<link rel="stylesheet" type="text/css" href="11-resources/01-css/style.css">
+<!DOCTYPE html>
+<html>
+<title>Project 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:10px}
+</style>
+<body>
 
-        <title>Week 3 Additive Manufacturing </title>
-    </head>
-
-    <body>
-        <h1>Week 3 Additive Manufacturing</h1>
-
-        <h3>Introduction</h3>
-
-<p>This page is an introduction to the website and how to use it.</p>
-
-    </body>
-</html>
-
-<!-- Sidebar/menu -->
+<!-- Sidebar (hidden by default) -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
-  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">CLOSE</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">HOME</a>
+<a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">CLOSE</a>
+  <a href="/index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">HOME</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">ABOUT ME</a>
-     <div class="w3-dropdown-hover w3-hide-small">
-         <button class="w3-padding-large w3-button w3-center" title="More">ASSIGMENTS <i class="fa fa-caret-down"></i></button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
 
-        <a href="#" class="w3-bar-item w3-button w3-center">Week 1</a>
+   <a href="/01-intro.html" class="w3-bar-item w3-button w3-center">Week 1</a>
         <a href="#" class="w3-bar-item w3-button w3-center">Week 2</a>
-        <a href="#" class="w3-bar-item w3-button w3-center">Week 3</a>
+        <a href="/01-intro.html" class="w3-bar-item w3-button w3-center">Week 3</a>
         <a href="#" class="w3-bar-item w3-button w3-center">Week 4</a>
         <a href="#" class="w3-bar-item w3-button w3-center">Week 5</a>
         <a href="#" class="w3-bar-item w3-button w3-center">Week 6</a>
@@ -39,3 +31,59 @@
         <a href="#" class="w3-bar-item w3-button w3-center">Week 11</a>
         <a href="#" class="w3-bar-item w3-button w3-center">Week 12</a>
 </nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-right"onclick="w3_open()">☰</div>
+    <div class="w3-left w3-padding-16">Justin Veilleux</div>
+    <div class="w3-center w3-padding-16">Introduction to Digital Fabrication: Fall 2020</div>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+
+  <!--BEGINNING OF PAGE-SPECIFIC CONTENT-->
+  <p><h1>Header </h1>
+    <h4>text
+    </h4>
+  </p>
+  <p>
+    <h2>Header2</h2>
+    More  <br/>
+
+    yeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeet<br/>
+
+     itself. <br/>
+
+    <h2>Work Please</h2>
+. <br/>
+
+    <h2>Formatting </h2>
+    the  <br/>
+
+     a  <br/>
+
+  </p>
+  <!--END OF PAGE-SPECIFIC CONTENT-->
+
+  <!-- Footer -->
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
