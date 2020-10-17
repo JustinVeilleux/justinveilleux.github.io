@@ -6,7 +6,7 @@ Shortly after I used the extrude tool and pulled the shapes upward turning the 2
 
 Next I created a sketch on my 3D shape which I would then extrude to create the final shape of the first tutorial.
 
-I would then learn how to use constraints these constraints will allow me to define objects changing shapes in the sketch from having blue lines outling to black lines on the defined object. I start with a circle defined at a 50mm distance. 
+Next I started the second tutorial where I learned how to use constraints these constraints will allow me to define objects changing shapes in the sketch from having blue lines outling to black lines on the defined object. I start with a circle defined at a 50mm distance. 
 
 Afterward I would create a rectangle that would have its sides constrained to the cirlce, meaning that the sides that are defined cannot move away from the circle. The height can change as it's not defined but the width can't change.
 
